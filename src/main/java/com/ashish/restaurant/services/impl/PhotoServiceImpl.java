@@ -32,6 +32,6 @@ public class PhotoServiceImpl implements PhotoService {
 
     @Override
     public Optional<Resource> getPhotoAsResource(String id) {
-        return Optional.empty();
+        return storageService.loadAsResource(id);
     }
 }
