@@ -24,7 +24,7 @@ public class OperatingHours {
     private TimeRange wednesday;
 
     @Field(type = FieldType.Nested)
-    private TimeRange thusday;
+    private TimeRange thursday;
 
     @Field(type = FieldType.Nested)
     private TimeRange friday;
